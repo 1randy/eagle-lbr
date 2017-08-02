@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="HSSOP56">
+<smd name="P$1" x="-4.7625" y="8.5725" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$2" x="-4.7625" y="7.9375" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$3" x="-4.7625" y="7.3025" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$4" x="-4.7625" y="6.6675" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$5" x="-4.7625" y="6.0325" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$6" x="-4.7625" y="5.3975" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$7" x="-4.7625" y="4.7625" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$8" x="-4.7625" y="4.1275" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$9" x="-4.7625" y="3.4925" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$10" x="-4.7625" y="2.8575" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$11" x="-4.7625" y="2.2225" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$12" x="-4.7625" y="1.5875" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$13" x="-4.7625" y="0.9525" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$14" x="-4.7625" y="0.3175" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$15" x="-4.7625" y="-0.3175" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$16" x="-4.7625" y="-0.9525" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$17" x="-4.7625" y="-1.5875" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$18" x="-4.7625" y="-2.2225" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$19" x="-4.7625" y="-2.8575" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$20" x="-4.7625" y="-3.4925" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$21" x="-4.7625" y="-4.1275" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$22" x="-4.7625" y="-4.7625" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$23" x="-4.7625" y="-5.3975" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$24" x="-4.7625" y="-6.0325" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$25" x="-4.7625" y="-6.6675" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$26" x="-4.7625" y="-7.3025" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$27" x="-4.7625" y="-7.9375" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$28" x="-4.7625" y="-8.5725" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$29" x="4.7625" y="-8.5725" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$30" x="4.7625" y="-7.9375" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$31" x="4.7625" y="-7.3025" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$32" x="4.7625" y="-6.6675" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$33" x="4.7625" y="-6.0325" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$34" x="4.7625" y="-5.3975" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$35" x="4.7625" y="-4.7625" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$36" x="4.7625" y="-4.1275" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$37" x="4.7625" y="-3.4925" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$38" x="4.7625" y="-2.8575" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$39" x="4.7625" y="-2.2225" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$40" x="4.7625" y="-1.5875" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$41" x="4.7625" y="-0.9525" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$42" x="4.7625" y="-0.3175" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$43" x="4.7625" y="0.3175" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$44" x="4.7625" y="0.9525" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$45" x="4.7625" y="1.5875" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$46" x="4.7625" y="2.2225" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$47" x="4.7625" y="2.8575" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$48" x="4.7625" y="3.4925" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$49" x="4.7625" y="4.1275" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$50" x="4.7625" y="4.7625" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$51" x="4.7625" y="5.3975" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$52" x="4.7625" y="6.0325" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$53" x="4.7625" y="6.6675" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$54" x="4.7625" y="7.3025" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$55" x="4.7625" y="7.9375" dx="1.9" dy="0.4" layer="1"/>
+<smd name="P$56" x="4.7625" y="8.5725" dx="1.9" dy="0.4" layer="1"/>
+<wire x1="-4.1275" y1="9.2075" x2="4.1275" y2="9.2075" width="0.127" layer="21"/>
+<wire x1="4.1275" y1="9.2075" x2="4.1275" y2="-9.2075" width="0.127" layer="21"/>
+<wire x1="4.1275" y1="-9.2075" x2="-4.1275" y2="-9.2075" width="0.127" layer="21"/>
+<wire x1="-4.1275" y1="-9.2075" x2="-4.1275" y2="9.2075" width="0.127" layer="21"/>
+<wire x1="2.8575" y1="-4.445" x2="-2.8575" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-2.8575" y1="-4.445" x2="-2.8575" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-2.8575" y1="4.445" x2="2.8575" y2="4.445" width="0.127" layer="21"/>
+<wire x1="2.8575" y1="4.445" x2="2.8575" y2="-4.445" width="0.127" layer="21"/>
+<text x="-4.1275" y="9.525" size="1.016" layer="25" ratio="15">&gt;NAME</text>
+<text x="-2.8575" y="7.62" size="1.016" layer="21" ratio="15">°</text>
+<wire x1="-3.175" y1="8.89" x2="3.81" y2="8.89" width="0.127" layer="21"/>
+<wire x1="3.81" y1="8.89" x2="3.81" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-8.89" x2="-3.175" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-8.89" x2="-3.175" y2="8.89" width="0.127" layer="21"/>
+<text x="-4.1275" y="-10.4775" size="1.016" layer="27" ratio="15">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TAS6424-Q1">
+<pin name="GND@1" x="-22.86" y="33.02" visible="pin" length="middle" direction="sup"/>
+<pin name="PVDD@1" x="-22.86" y="30.48" visible="pin" length="middle"/>
+<pin name="VBAT" x="-22.86" y="27.94" visible="pin" length="middle"/>
+<pin name="AREF" x="-22.86" y="25.4" visible="pin" length="middle"/>
+<pin name="VREG" x="-22.86" y="22.86" visible="pin" length="middle"/>
+<pin name="VCOM" x="-22.86" y="20.32" visible="pin" length="middle"/>
+<pin name="AVSS" x="-22.86" y="17.78" visible="pin" length="middle"/>
+<pin name="AVDD" x="-22.86" y="15.24" visible="pin" length="middle"/>
+<pin name="GVDD@1" x="-22.86" y="12.7" visible="pin" length="middle"/>
+<pin name="GVDD@2" x="-22.86" y="10.16" visible="pin" length="middle"/>
+<pin name="GND@2" x="-22.86" y="7.62" visible="pin" length="middle" direction="sup"/>
+<pin name="MCLK" x="-22.86" y="5.08" visible="pin" length="middle"/>
+<pin name="SCLK" x="-22.86" y="2.54" visible="pin" length="middle"/>
+<pin name="FSYNC" x="-22.86" y="0" visible="pin" length="middle"/>
+<pin name="SDIN1" x="-22.86" y="-2.54" visible="pin" length="middle"/>
+<pin name="SDIN2" x="-22.86" y="-5.08" visible="pin" length="middle"/>
+<pin name="GND@3" x="-22.86" y="-7.62" visible="pin" length="middle" direction="sup"/>
+<pin name="GND@4" x="-22.86" y="-10.16" visible="pin" length="middle" direction="sup"/>
+<pin name="VDD" x="-22.86" y="-12.7" visible="pin" length="middle"/>
+<pin name="SCL" x="-22.86" y="-15.24" visible="pin" length="middle"/>
+<pin name="SDA" x="-22.86" y="-17.78" visible="pin" length="middle"/>
+<pin name="I2C_ADDR0" x="-22.86" y="-20.32" visible="pin" length="middle"/>
+<pin name="I2C_ADDR1" x="-22.86" y="-22.86" visible="pin" length="middle"/>
+<pin name="/STANDBY" x="-22.86" y="-25.4" visible="pin" length="middle"/>
+<pin name="/MUTE" x="-22.86" y="-27.94" visible="pin" length="middle"/>
+<pin name="/FAULT" x="-22.86" y="-30.48" visible="pin" length="middle"/>
+<pin name="/WARN" x="-22.86" y="-33.02" visible="pin" length="middle"/>
+<pin name="GND@5" x="-22.86" y="-35.56" visible="pin" length="middle" direction="sup"/>
+<pin name="PVDD@2" x="22.86" y="-35.56" visible="pin" length="middle" rot="R180"/>
+<pin name="PVDD@3" x="22.86" y="-33.02" visible="pin" length="middle" rot="R180"/>
+<pin name="BST_1M" x="22.86" y="-30.48" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT_1M" x="22.86" y="-27.94" visible="pin" length="middle" rot="R180"/>
+<pin name="GND@6" x="22.86" y="-25.4" visible="pin" length="middle" direction="sup" rot="R180"/>
+<pin name="OUT_1P" x="22.86" y="-22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="BST_1P" x="22.86" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="GND@7" x="22.86" y="-17.78" visible="pin" length="middle" direction="sup" rot="R180"/>
+<pin name="BST_2M" x="22.86" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT_2M" x="22.86" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="GND@8" x="22.86" y="-10.16" visible="pin" length="middle" direction="sup" rot="R180"/>
+<pin name="OUT_2P" x="22.86" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="BST_2P" x="22.86" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="PVDD@4" x="22.86" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="PVDD@5" x="22.86" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="BST_3M" x="22.86" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT_3M" x="22.86" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GND@9" x="22.86" y="7.62" visible="pin" length="middle" direction="sup" rot="R180"/>
+<pin name="OUT_3P" x="22.86" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="BST_3P" x="22.86" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="GND@10" x="22.86" y="15.24" visible="pin" length="middle" direction="sup" rot="R180"/>
+<pin name="BST_4M" x="22.86" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT_4M" x="22.86" y="20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="GND@11" x="22.86" y="22.86" visible="pin" length="middle" direction="sup" rot="R180"/>
+<pin name="OUT_4P" x="22.86" y="25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="BST_4P" x="22.86" y="27.94" visible="pin" length="middle" rot="R180"/>
+<pin name="PVDD@6" x="22.86" y="30.48" visible="pin" length="middle" rot="R180"/>
+<pin name="PVDD@7" x="22.86" y="33.02" visible="pin" length="middle" rot="R180"/>
+<wire x1="-17.78" y1="35.56" x2="17.78" y2="35.56" width="0.254" layer="94"/>
+<wire x1="17.78" y1="35.56" x2="17.78" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-38.1" x2="-17.78" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-38.1" x2="-17.78" y2="35.56" width="0.254" layer="94"/>
+<text x="-17.78" y="36.83" size="2.54" layer="95" ratio="15">&gt;NAME</text>
+<text x="-17.78" y="-41.91" size="2.54" layer="96" ratio="15">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TAS6424-Q1" prefix="U$1" uservalue="yes">
+<description>TAS6424-Q1 75-W Class-D Audio Amplifier
+&lt;P&gt;
+2-MHz Digital Input 4-Channel Automotive Class-D Audio Amplifier With Load-Dump Protection and I2C Diagnostics
+&lt;P&gt;
+&lt;a href="http://www.ti.com/lit/ds/symlink/tas6424-q1.pdf"&gt;datasheet: 
+http://www.ti.com/lit/ds/symlink/tas6424-q1.pdf&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TAS6424-Q1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HSSOP56">
+<connects>
+<connect gate="G$1" pin="/FAULT" pad="P$26"/>
+<connect gate="G$1" pin="/MUTE" pad="P$25"/>
+<connect gate="G$1" pin="/STANDBY" pad="P$24"/>
+<connect gate="G$1" pin="/WARN" pad="P$27"/>
+<connect gate="G$1" pin="AREF" pad="P$4"/>
+<connect gate="G$1" pin="AVDD" pad="P$8"/>
+<connect gate="G$1" pin="AVSS" pad="P$7"/>
+<connect gate="G$1" pin="BST_1M" pad="P$31"/>
+<connect gate="G$1" pin="BST_1P" pad="P$35"/>
+<connect gate="G$1" pin="BST_2M" pad="P$37"/>
+<connect gate="G$1" pin="BST_2P" pad="P$41"/>
+<connect gate="G$1" pin="BST_3M" pad="P$44"/>
+<connect gate="G$1" pin="BST_3P" pad="P$48"/>
+<connect gate="G$1" pin="BST_4M" pad="P$50"/>
+<connect gate="G$1" pin="BST_4P" pad="P$54"/>
+<connect gate="G$1" pin="FSYNC" pad="P$14"/>
+<connect gate="G$1" pin="GND@1" pad="P$1"/>
+<connect gate="G$1" pin="GND@10" pad="P$49"/>
+<connect gate="G$1" pin="GND@11" pad="P$52"/>
+<connect gate="G$1" pin="GND@2" pad="P$11"/>
+<connect gate="G$1" pin="GND@3" pad="P$17"/>
+<connect gate="G$1" pin="GND@4" pad="P$18"/>
+<connect gate="G$1" pin="GND@5" pad="P$28"/>
+<connect gate="G$1" pin="GND@6" pad="P$33"/>
+<connect gate="G$1" pin="GND@7" pad="P$36"/>
+<connect gate="G$1" pin="GND@8" pad="P$39"/>
+<connect gate="G$1" pin="GND@9" pad="P$46"/>
+<connect gate="G$1" pin="GVDD@1" pad="P$9"/>
+<connect gate="G$1" pin="GVDD@2" pad="P$10"/>
+<connect gate="G$1" pin="I2C_ADDR0" pad="P$22"/>
+<connect gate="G$1" pin="I2C_ADDR1" pad="P$23"/>
+<connect gate="G$1" pin="MCLK" pad="P$12"/>
+<connect gate="G$1" pin="OUT_1M" pad="P$32"/>
+<connect gate="G$1" pin="OUT_1P" pad="P$34"/>
+<connect gate="G$1" pin="OUT_2M" pad="P$38"/>
+<connect gate="G$1" pin="OUT_2P" pad="P$40"/>
+<connect gate="G$1" pin="OUT_3M" pad="P$45"/>
+<connect gate="G$1" pin="OUT_3P" pad="P$47"/>
+<connect gate="G$1" pin="OUT_4M" pad="P$51"/>
+<connect gate="G$1" pin="OUT_4P" pad="P$53"/>
+<connect gate="G$1" pin="PVDD@1" pad="P$2"/>
+<connect gate="G$1" pin="PVDD@2" pad="P$29"/>
+<connect gate="G$1" pin="PVDD@3" pad="P$30"/>
+<connect gate="G$1" pin="PVDD@4" pad="P$42"/>
+<connect gate="G$1" pin="PVDD@5" pad="P$43"/>
+<connect gate="G$1" pin="PVDD@6" pad="P$55"/>
+<connect gate="G$1" pin="PVDD@7" pad="P$56"/>
+<connect gate="G$1" pin="SCL" pad="P$20"/>
+<connect gate="G$1" pin="SCLK" pad="P$13"/>
+<connect gate="G$1" pin="SDA" pad="P$21"/>
+<connect gate="G$1" pin="SDIN1" pad="P$15"/>
+<connect gate="G$1" pin="SDIN2" pad="P$16"/>
+<connect gate="G$1" pin="VBAT" pad="P$3"/>
+<connect gate="G$1" pin="VCOM" pad="P$6"/>
+<connect gate="G$1" pin="VDD" pad="P$19"/>
+<connect gate="G$1" pin="VREG" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
