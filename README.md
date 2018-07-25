@@ -1,9 +1,9 @@
-## eagle-lbr
+# eagle-lbr
 A collection of myself created eagle libraries.
 
 Use at your own risk, always check your layout before manufacturing!.
 
-# Changes
+## Changes
 
 - fixed SK6812 SMD3535 footprint
   https://github.com/1randy/eagle-lbr/issues/1
@@ -12,7 +12,7 @@ Use at your own risk, always check your layout before manufacturing!.
 
 - renamed package "SK6812-NARROW" to "LED5050_N"
 
-# Libraries
+## Libraries
 
 * SK6812.lbr:
   LED with smart control circuit
@@ -30,7 +30,7 @@ Use at your own risk, always check your layout before manufacturing!.
   - LORA_SILK_M: LoRA Logo for silkscreen medium size
   - LORA_SILK_S: LoRA Logo for silkscreen small size
 
-# Misc
+## Misc
 
 * Datasheets for the components under datasheets/
 
