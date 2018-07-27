@@ -5,6 +5,11 @@ A collection of myself created eagle libraries.
 
 ## Changes
 
+- 20180727:
+  - added Wago 2060 Cage Clamp
+  - addded ESP12 Module
+  - MEC Multimec Switches
+
 - 20180726:
   - added Heltec Wifi LoRa 32 module<br>
     [https://github.com/Heltec-Aaron-Lee/WiFi\_Kit\_series](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series)
@@ -35,13 +40,35 @@ A collection of myself created eagle libraries.
   - RFM95: 866MHz LoRa Module
   - LORA\_SILK\_M, LORA\_SILK\_S: LoRA Logo for silkscreen (medium & small size)
   
-* ESP32.lbr
+* ESP32_modules.lbr
   - Heltec WIFI LoRa 32<br>
     ESP32 Module with LoRa, 2.54mm DIP
+  
+* ESP8266_modules.lbr
+  - NodeMCU-ESP-12E
+    ESP8266 Module, 2.54mm DIP
+  - ESP-12E
+    ESP8266 SMT Module, 22/16 pins
 
+* con-wago-2060.lbr
+  - WAGO 2060 Series Cage Clamp
+    - 2060-401/451/471: SMD 4mm, 1 x 0,75 mm2
+    - 2060-402/452/452: SMD 4mm, 2 x 0,75 mm2
+    - 2060-403/453/473: SMD 4mm, 3 x 0,75 mm2
+    - 2060-802/852/853: SMD 8mm, 2 x 0,75 mm2
+    - 2060-1401/1421: THR 4mm, 1 x 0,75 mm2
+    - 2060-1402/1422: THR 4mm, 2 x 0,75 mm2
+    - 2060-1403/1423: THR 4mm, 3 x 0,75 mm2
+    - 2060-1802/1822: THR 8mm, 2 x 0,75 mm2
+    
+* mec\_switches\_multimec.lbr
+  - MEC Multimec Series switches
+    - 3AT: Navimec switch THT with/without cap 1ZB
+    - 3FT: Navimec switch THT with/without cap 1ZC
+    
 ## Misc
 
-* Datasheets for the components in the directory [datasheets/]()
+* Datasheets for the components in the directory [datasheets/](datasheets/)
 
 
 
