@@ -1,9 +1,15 @@
 # eagle-lbr
-A collection of myself created eagle libraries.
+A collection of self created eagle libraries.
+
+Designed with/for eagle 7.x
 
 :warning: **Use at your own risk, always check your layout before manufacturing!**
 
 ## Changes
+
+- 20180807:
+  - added SK6812 symbol name & value, changed pin visbility <br>
+    thanks [https://github.com/AndersV209/](AndersV209)
 
 - 20180727:
   - added Wago 2060 Cage Clamp
