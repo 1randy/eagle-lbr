@@ -9,7 +9,7 @@ Designed with/for eagle 7.x
 
 - 20180807:
   - added SK6812 symbol name & value, changed pin visbility <br>
-    thanks [https://github.com/AndersV209/](AndersV209)
+    [https://github.com/1randy/eagle-lbr/issues/2](https://github.com/1randy/eagle-lbr/issues/2)
 
 - 20180727:
   - added Wago 2060 Cage Clamp
