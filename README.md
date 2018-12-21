@@ -7,6 +7,10 @@ Designed with/for eagle 7.x
 
 ## Changes
 
+
+- 20181220:
+  - added Analog Devices AD724 & AD8056
+     
 - 20180807:
   - added SK6812 symbol name & value, changed pin visbility <br>
     [https://github.com/1randy/eagle-lbr/issues/2](https://github.com/1randy/eagle-lbr/issues/2)
@@ -32,6 +36,10 @@ Designed with/for eagle 7.x
 
 ## Libraries
 
+* analog-devices.lbr:
+  - [AD724][40]: RGB to NTSC/PAL Encoder
+  - [AD8056][41]: Dual 300 MHz Voltage Feedback Amplifiers
+  
 * con-wago-2060.lbr ([WAGO 2060 Series Cage Clamp][10])
   - 2060-401/451/471: SMD 4mm, 1 x 0,75 mm2
   - 2060-402/452/452: SMD 4mm, 2 x 0,75 mm2
@@ -92,3 +100,6 @@ Designed with/for eagle 7.x
 [31]: https://raw.githubusercontent.com/1randy/eagle-lbr/master/datasheets/FASTRON-SMD_Induktivitaeten-PIS4728.pdf
 [32]: https://raw.githubusercontent.com/1randy/eagle-lbr/master/datasheets/FASTRON-SMD_Induktivitaeten-PISR.pdf
 [35]: https://raw.githubusercontent.com/1randy/eagle-lbr/master/datasheets/mec_switches_1206_katalog_v6_d.pdf
+[40]: https://raw.githubusercontent.com/1randy/eagle-lbr/master/datasheets/AD724.pdf
+[41]: https://raw.githubusercontent.com/1randy/eagle-lbr/master/datasheets/AD8055_8056.pdf
+
